@@ -1,5 +1,6 @@
 package ru.ksergey.ContactsApp.controllers;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,11 +12,8 @@ import ru.ksergey.ContactsApp.service.ContactService;
 @RequestMapping("/contact")
 public class ContactController {
 
-    private final ContactService contactService;
-
-    public ContactController(ContactService contactService) {
-        this.contactService = contactService;
-    }
+    @Autowired
+    private ContactService contactService;
 
     @GetMapping(value = "/")
     public ResponseEntity<Contact> getRandomContact() {
