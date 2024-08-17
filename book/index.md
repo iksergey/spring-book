@@ -14,6 +14,7 @@
 - [Шаг 4](./steps/step-04.md) >> [комментарий](./steps/step-04theory.md)
 - [Шаг 5](./steps/step-05.md) >> [комментарий](./steps/step-05theory.md)
 - [Шаг 6](./steps/step-06.md) >> [комментарий](./steps/step-06theory.md)
+- [Шаг 7. Swagger](./steps/step-07.md) 
 
 ---
 
