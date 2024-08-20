@@ -38,4 +38,4 @@ public class SwaggerConfig {
 
 4. Пример документации https://github.com/iksergey/spring-book/blob/mastery/src/main/java/ru/ksergey/ContactsApp/controllers/ContactController.java
 
-## [Приступить к выполнению задания](./../part-05.md)
+## [Шаг 8](./step-08.md)
