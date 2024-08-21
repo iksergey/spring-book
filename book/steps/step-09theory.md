@@ -22,4 +22,5 @@ public class SecondaryService implements MyService {
 В этом примере, если Spring обнаружит оба бина `PrimaryService` и `SecondaryService` для интерфейса `MyService`, он выберет `PrimaryService` из-за аннотации `@Primary`.
 
 Аннотация `@Primary` предоставляет простой способ указать, какой бин использовать по умолчанию, что упрощает управление зависимостями в приложениях Spring.
- 
+
+[Шаг 10](./step-10.md)
