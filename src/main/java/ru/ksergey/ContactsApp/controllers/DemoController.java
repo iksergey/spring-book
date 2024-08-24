@@ -14,6 +14,16 @@ public class DemoController {
         return ResponseEntity.ok(response);
     }
 
+    @PostMapping("/postItem")
+    public ResponseEntity<String> getItemWithValue(@RequestBody String data) { //Данные будут переданы в метод как строка.
+        String response = String.format("postItemWithValue получил данные: %s ", data);
+        return ResponseEntity.ok(response);
+    }
+
+    public ResponseEntity<String> getItem(@RequestBody String data) {
+        String response = String.format("postItem получил данные: %s ", data);
+        return ResponseEntity.ok(response);
+    }
 }
 
 
@@ -35,3 +45,11 @@ public class DemoController {
 //ResponseEntity.ok() создает объект ResponseEntity с HTTP статусом 200 (OK), указывает на успешное выполнение запроса.
 
 // http://localhost:11000/demo/привет!
+
+//@PostMapping(“/postItem”) будет обрабатывать POST запросы, отправленные на URL /demo/postItem, если контроллер
+// аннотирован как @RequestMapping("/demo").
+
+//@RequestBody указывает, что метод ожидает получить данные из тела запроса.
+
+//ResponseEntity.ok(response): Возвращает HTTP ответ с кодом 200 (OK) и телом, содержащим строку
+// postItemWithValue получил данные: {data}, где {data} — это данные, полученные из запроса.
