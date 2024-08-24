@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HomeController { // MVC (Model-View-Controller)
 
-    @GetMapping("/api/")
+    @GetMapping("/")
     public String home() { // вызываемый метод
         return "start.html";
     }
