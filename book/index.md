@@ -19,6 +19,12 @@
 - [Шаг 9](./steps/step-09.md) >> [комментарий](./steps/step-09theory.md)
 - [Шаг 10](./steps/step-10.md) >> [комментарий](./steps/step-10theory.md)
 - [Шаг 11](./steps/step-11.md)
+- [Шаг 12](./steps/step-12.md)
+- [Шаг 13](./steps/step-13.md) >> [комментарий](./steps/step-13theory.md)
+- [Шаг 14](./steps/step-14.md) >> [комментарий](./steps/step-14theory.md)
+- [Шаг 15](./steps/step-15.md)
+- [Шаг 16](./steps/step-16.md) >> [решение](./steps/step-16theory.md)
+- [Шаг 17](./steps/step-17.md)
 
 ---
 
