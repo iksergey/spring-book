@@ -11,14 +11,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "cars")
-public class Car {
+@Table(name = "engineers")
+public class Engineer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String brand;
-    private String model;
-    private int year;
-    private String cityOfManufacture;
-    private Long engineerId;
+    private String firstName;
+    private String lastName;
+    private String description;
 }

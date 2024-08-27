@@ -31,7 +31,6 @@ public class CarController {
 
     @PutMapping("/{id}")
     public ResponseEntity<Car> updateCar(@PathVariable Long id, @RequestBody Car carDetails) {
-        //         Car car = carRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Car not found"));
         Car car = carRepository.findById(id).orElse(null);
         if (car == null) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
@@ -40,7 +39,7 @@ public class CarController {
         car.setModel(carDetails.getModel());
         car.setYear(carDetails.getYear());
         car.setCityOfManufacture(carDetails.getCityOfManufacture());
-        car.setEngineerName(carDetails.getEngineerName());
+        car.setEngineerId(carDetails.getEngineerId());
         return ResponseEntity.status(HttpStatus.OK).body(carRepository.save(car));
     }
 
@@ -55,12 +54,11 @@ public class CarController {
     }
 
     @GetMapping("/search")
-    public ResponseEntity<List<Car>> getCarsByEngineerName(@RequestParam String engineerName) {
-        List<Car> cars = carRepository.findByEngineerName(engineerName);
+    public ResponseEntity<List<Car>> getCarsByEngineerId(@RequestParam Long engineerId) {
+        List<Car> cars = carRepository.findByEngineerId(engineerId);
         if (cars.isEmpty()) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
         return ResponseEntity.status(HttpStatus.OK).body(cars);
     }
-
 }
