@@ -7,7 +7,7 @@ import ru.ksergey.ContactsApp.model.Contact;
 import java.util.ArrayList;
 import java.util.List;
 
-@Primary
+//@Primary
 @Repository
 public class InMemoryContactRepository implements ContactRepository {
 
