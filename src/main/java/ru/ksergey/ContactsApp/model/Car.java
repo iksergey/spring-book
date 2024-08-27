@@ -20,5 +20,8 @@ public class Car {
     private String model;
     private int year;
     private String cityOfManufacture;
-    private Long engineerId;
+
+    @ManyToOne
+    @JoinColumn(name = "engineer_id")
+    private Engineer engineer;
 }
