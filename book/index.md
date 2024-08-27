@@ -23,7 +23,7 @@
 - [Шаг 13](./steps/step-13.md) >> [комментарий](./steps/step-13theory.md)
 - [Шаг 14](./steps/step-14.md) >> [комментарий](./steps/step-14theory.md)
 - [Шаг 15](./steps/step-15.md)
-- [Шаг 16](./steps/step-16.md) >> [решение](./steps/step-16theory.md)
+- [Шаг 16](./steps/step-16.md) >> [решение](./steps/step-16solution.md)
 - [Шаг 17](./steps/step-17.md)
 
 ---
