@@ -34,3 +34,10 @@
 # Задание
 - [Приложение для управления контактами](./part-05.md)
 - [Рекомендации](./project-structure.md)
+
+### Подготовка к микросервисам
+
+Аутентификация и авторизация вынесена в приложение [spring-security-book](https://github.com/iksergey/spring-security-book/tree/jwt-spring-security).  
+Необходимо донастроить его в соответствии с инструкцией [Подготовка к микросервисам](https://iksergey.github.io/spring-security-book/book/spring-security/).  
+- [Настройка текущего приложения](./steps/step-18.md)
+- Исходники лежат в ветке `microservice-attempted`
