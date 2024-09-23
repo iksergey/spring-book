@@ -42,6 +42,15 @@ public void addInterceptors(InterceptorRegistry registry) {
 
 ### 2. Сервис валидации токена
 
+Добавьте зависимость
+
+```
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-webflux</artifactId>
+</dependency>
+```
+
 Создайте класс `TokenValidationService` в пакете `service`:
 
 ```java
