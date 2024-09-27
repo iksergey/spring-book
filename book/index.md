@@ -41,3 +41,7 @@
 Необходимо донастроить его в соответствии с инструкцией [Подготовка к микросервисам](https://iksergey.github.io/spring-security-book/book/spring-security/).  
 - [Настройка текущего приложения](./steps/step-18.md)
 - Исходники лежат в ветке `microservice-attempted`
+
+# Как запушить Docker образ в Docker Hub
+
+- [Инструкция](./steps/step-19.md)
